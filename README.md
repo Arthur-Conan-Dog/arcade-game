@@ -1,6 +1,10 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+Version 1
+- Realized the basic functions of game. 
+- Description: player can control the character move left/right/up/down by keyboard; when the character collides with enemy bugs, the character will return to its default location and the enemy bug will be wiped off from the canvas; when the character reaches the water line, the console will print a message -- "You win!"; when the character reaches the water line again, console won't print any message.(for the consideration of version 2)
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+第一版
+- 实现了游戏的基本功能。
+- 描述：玩家可以通过键盘操纵小人上下左右移动；当小人与甲虫敌人碰撞时，小人回到起始位置，甲虫被清除；当小人首次安全抵达水域时，控制台打印“You Win!”；当小人再次抵达水域时，控制台不重复打印信息（为下一版做准备）。
