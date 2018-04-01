@@ -1,4 +1,4 @@
-frontend-nanodegree-arcade-game
+arcade-game
 ===============================
 
 Version 1
